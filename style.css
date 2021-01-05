@@ -1,0 +1,27 @@
+body{
+	background-color: #fffbff;
+	align-items: center;
+}
+
+.reg{	
+	background-color: white;
+	margin-left: 40%;
+	width: 20%;
+	border-radius: 5px;
+	height: 3em;
+}
+
+
+.submit{
+	width: 10%;
+	height: 3rem;
+	border-radius: 4px;
+}
+
+.search{
+	background-color: white;
+	margin-left: 25%;
+	width: 40%;
+	border-radius: 4px;
+	height: 3rem;
+}

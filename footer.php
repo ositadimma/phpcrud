@@ -1,0 +1,1 @@
+<div style="text-align: center; font-size: 0.8rem; margin: 20px;"> © 2021 </div>
