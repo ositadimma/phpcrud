@@ -4,17 +4,17 @@
       languages: PHP, SQL, HTML, CSS
 
 ## Description
-   Application that enables CRUD operation on events in a database.
+   Application that enables CRUD operation on events in a database. Store files in folder and save to your htdocs folder within your xampp folder ie. save documents to 'xampp\htdocs\foldername'
 
 ### For Admin 
-    Register admin by visiting registeration.php
+    Register admin by visiting 'foldrname\registeration.php'
     After registeration, click link to log in page. 
     Log in to visit admin home.
     click on 'more info' to access further functionalities
     click on either 'update' or 'delete' to update or delete events respectively
 
 ### For Public
-    visit home.php for public home.
+    visit 'foldername\home.php' for public home.
     click on 'more info' to access further functionalities.
     click on 'apply' to apply to apply for event.
 
@@ -38,7 +38,7 @@
 | eventname   | varchar  |
 |date_of_application| date|
     
-    set applicantid to auto increment
+    set applicantid to auto increment in mysql database
     set 'date_of_application' to default: current timestamp in mysql database
 
 ### events table
@@ -54,7 +54,7 @@ table name: events
 | created_at  | timestamp|
 | updated_at  | timestamp|
 
-    set eventid to auto increment
+    set eventid to auto increment in mysql database
     set both 'created_at' and 'updated_at' to default: current timestamp in mysql database
 
 ### admin user registeration table
@@ -67,4 +67,4 @@ table name: events
 | email       | varchar  |
 | password    | varchar  |
     
-    set id to auto increment
+    set id to auto increment in mysql database
