@@ -29,28 +29,30 @@
 
     Tablename: Applicant
 
-      | column name | datatype |
-      | ----------- | -------- |
-      | applicant1d | int      |
-      | firstname   | varchar  |
-      | lastname    | varchar  |
-      | email       | varchar  |
-      | eventname   | varchar  |
-      |date_of_application| date 
+| column name | datatype |
+| ----------- | -------- |
+| applicant1d | int      |
+| firstname   | varchar  |
+| lastname    | varchar  |
+| email       | varchar  |
+| eventname   | varchar  |
+|date_of_application| date|
     
     set applicantid to auto increment
     set 'date_of_application' to default: current timestamp in mysql database
 
 ### events table
+
+table name: events
  
-      | column name | datatype |
-      | ----------- | -------- |
-      | event1d     | int      |
-      | eventname   | varchar  |
-      | eventtype   | varchar  |
-      | eventdate   | date     |
-      | created_at  | timestamp|
-      | updated_at  | timestamp|
+| column name | datatype |
+| ----------- | -------- |
+| event1d     | int      |
+| eventname   | varchar  |
+| eventtype   | varchar  |
+| eventdate   | date     |
+| created_at  | timestamp|
+| updated_at  | timestamp|
 
     set eventid to auto increment
     set both 'created_at' and 'updated_at' to default: current timestamp in mysql database
@@ -58,11 +60,11 @@
 ### admin user registeration table
  Tablename: user
 
-      | column name | datatype |
-      | ----------- | -------- |
-      | 1d          | int      |
-      | username    | varchar  |
-      | email       | varchar  |
-      | password    | varchar  |
+| column name | datatype |
+| ----------- | -------- |
+| 1d          | int      |
+| username    | varchar  |
+| email       | varchar  |
+| password    | varchar  |
     
     set id to auto increment
