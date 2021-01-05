@@ -28,6 +28,6 @@
     | --------- | -------- | -------- | -------- | -------- | -------- | ------- |
     | applicant | applicant1d(int) | firstname(varchar) | lastname(varchar) | email(varchar) | eventname(varchar) | date_of_application(date)|
     | events | event1d(int) | eventname(varchar) | eventtype(varchar) | eventdate(date) | created_at(timestamp) | updated_at(timestamp)|
-    | user | 1d(int) | username(varchar) | email(varchar) | password(varchar) |  |   |
+    | user | 1d(int) | username(varchar) | email(varchar) | password(varchar) |
 
 
