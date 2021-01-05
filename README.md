@@ -10,8 +10,9 @@
     Register admin by visiting 'foldrname\registeration.php'
     After registeration, click link to log in page. 
     Log in to visit admin home.
-    click on 'more info' to access further functionalities
-    click on either 'update' or 'delete' to update or delete events respectively
+    Add event by clicking on 'addevent' link.
+    click on 'more info' to access further functionalities.
+    click on either 'update' or 'delete' to update or delete events respectively.
 
 ### For Public
     visit 'foldername\home.php' for public home.
